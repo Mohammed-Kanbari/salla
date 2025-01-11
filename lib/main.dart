@@ -34,8 +34,8 @@ void main() {
   ErrorWidget.builder = (FlutterErrorDetails details) {
     return Center(
       child: SizedBox(
-        height: 100,
         width: 100,
+        height: 100,
         child: LottieBuilder.asset(
           "IMG/Lottie/Loading.json",
           ),),);
